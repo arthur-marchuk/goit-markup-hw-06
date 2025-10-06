@@ -52,7 +52,77 @@
             </li>
           </ul>
         </address>
+        <!-- Burger -->
+        <button class="burger-btn" type="button">
+          <svg width="24" height="24" class="burger-close-icon">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
+      <!-- !MOBILE MENU backdrop hide"-->
+      <div class="mobile-menu backdrop hiden">
+        <!-- Кнопка закрытия меню -->
+        <button class="modal-close-btn mobile-menu-close-btn" type="button">
+          <svg width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+
+        <!-- 1️⃣ Навигация -->
+        <div class="mobile-nav-wrapper">
+          <ul class="mobile-nav-list">
+            <li><a href="#studio" class="mobile-nav-link">Studio</a></li>
+            <li><a href="#portfolio" class="mobile-nav-link">Portfolio</a></li>
+            <li><a href="#contacts" class="mobile-nav-link">Contacts</a></li>
+          </ul>
+        </div>
+
+        <!-- 2️⃣ Контакты -->
+        <div class="mobile-contacts">
+          <a href="tel:+110001111111" class="mobile-phone"
+            >+11 (000) 111-11-11</a
+          >
+          <a href="mailto:info@devstudio.com" class="mobile-email"
+            >info@devstudio.com</a
+          >
+        </div>
+
+        <!-- 3️⃣ Соцсети -->
+        <div class="mobile-social-wrapper">
+          <ul class="mobile-social-list">
+            <li>
+              <a class="mobile-social-link footer-team-social" href="#">
+                <svg width="16" height="16" class="team-icon">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="mobile-social-link footer-team-social" href="#">
+                <svg width="16" height="16" class="team-icon">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="mobile-social-link footer-team-social" href="#">
+                <svg width="16" height="16" class="team-icon">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="mobile-social-link" href="#">
+                <svg width="16" height="16" class="team-icon">
+                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- !MOBILE MENU -->
     </header>
 
     <main>
@@ -667,7 +737,7 @@
     </footer>
 
     <!-- Modal -->
-    <div class="backdrop hide">
+    <div class="backdrop is-open">
       <div class="modal">
         <button class="modal-close-btn" type="button">
           <svg width="8" height="8" class="modal-close-icon">
